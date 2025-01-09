@@ -44,12 +44,58 @@ nav{
     width: 60vw;
     text-align: center;
 }
-.first button{
+.btn{
     color: white;
     background-color: #00B6D1;
-    padding: 12px 20px;
+    padding: 14px 16px;
     border: none;
     border-radius: 6px;
     font-weight: bolder;
     font-size: 17px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+.second{
+    max-width: 78vw;
+    margin: auto;
+}
+.small{
+    font-size: 12px;
+}
+.green{
+    background-color: #5CB85C;
+}
+.iteam{
+    padding: 23px;
+    background: #F9F9F9;
+    border-radius: 6PX;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.lang{
+    padding-bottom: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+.big{
+    font-size: 24px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 1000px) {
+    .grid{
+        
+        grid-template-columns: 1fr;
+        
+    }
 }
