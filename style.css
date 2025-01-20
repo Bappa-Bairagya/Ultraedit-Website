@@ -16,6 +16,7 @@ nav{
 .list ul{
     display: flex;
     gap: 25px;
+    margin-top: 10px;
 }
 .list ul li{
     list-style: none;
