@@ -222,6 +222,8 @@ footer .f1{
 .ico i{
     font-size: 28px;
     margin-left: 10px;
+    cursor: pointer;
+    
 }
 .last{
     font-size: 12px;
